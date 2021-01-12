@@ -1,6 +1,7 @@
 # Neo4j-Log4j2 Sample
 
-Reporduction case for broken log4j2 integration together with Neo4j 4.2.x.
+Reporduction case for broken log4j2 integration together with Neo4j 4.2.x  (Issue [neo4j/neo4j#12655](../../../../neo4j/neo4j/issues/12655)).
+Note: `JAVA_HOME` has to point to a JDK 11 installation.
 
 ## Case 1: Logging works with Neo4j 4.1.5
 Run test:
@@ -17,7 +18,7 @@ Output:
 ## Case 2: Logging broken with Neo4j 4.2.2
 Run test:
 ```shell
-./mvnw clean test -Dneo4j.version='4.1.5'
+./mvnw clean test -Dneo4j.version='4.2.2'
 ```
 Output:
 ```shell
