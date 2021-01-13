@@ -6,7 +6,7 @@
 				"name": "STDOUT",
 				"target": "SYSTEM_OUT",
 				"PatternLayout": {
-					"pattern": "%d [%t] %-5p %c - %m%n"
+					"pattern": "[%t] %-5p %c - %m%n"
 				}
 			}
 		},
